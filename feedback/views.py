@@ -1,12 +1,14 @@
-from django.shortcuts import render
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render, redirect
+from .models import CommentModel, ProblemModel, OfferModel
+from .forms import CommentForm, ProblemForm, OfferForm
+
 
 def home(request):
-    return render(request, 'feedback/home.html')
+    return render(request, 'index.html')
 
-
-from django.shortcuts import render, redirect
-from .models import Offer
-from .forms import OfferForm
 
 def offers(request):
     if request.method == 'POST':
@@ -19,12 +21,9 @@ def offers(request):
     else:
         form = OfferForm()
 
-    offers_list = Offer.objects.all()
-    return render(request, 'feedback/offers.html', {'form': form, 'offers': offers_list})
+    offers_list = OfferModel.objects.all()
+    return render(request, 'offers.html', {'form': form, 'offers': offers_list})
 
-
-from .models import Problem
-from .forms import ProblemForm
 
 def problems(request):
     if request.method == 'POST':
@@ -37,12 +36,9 @@ def problems(request):
     else:
         form = ProblemForm()
 
-    problems_list = Problem.objects.all()
-    return render(request, 'feedback/problems.html', {'form': form, 'problems': problems_list})
+    problems_list = ProblemModel.objects.all()
+    return render(request, 'problems.html', {'form': form, 'problems': problems_list})
 
-
-from .models import Comment
-from .forms import CommentForm
 
 def comments(request, offer_id):
     if request.method == 'POST':
@@ -56,6 +52,31 @@ def comments(request, offer_id):
     else:
         form = CommentForm()
 
-    comments_list = Comment.objects.filter(offer_id=offer_id)
-    return render(request, 'feedback/comments.html', {'form': form, 'comments': comments_list})
+    comments_list = CommentModel.objects.filter(offer_id=offer_id)
+    return render(request, 'comments.html', {'form': form, 'comments': comments_list})
 
+
+def auth_view(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('home')
+    else:
+        form = UserCreationForm()
+
+    return render(request, 'auth.html', {'form': form})
+
+
+@login_required
+def profile(request):
+    return render(request, 'profile.html', {'user': request.user})
+
+
+def page_not_found(request, ):
+    return render(request, '404.html', status=404)
