@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24302116-13d7-48d4-a88f-6944476616c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nt_feedback.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feedback/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6-homewrok/#3" beforeDir="false" afterPath="$PROJECT_DIR$/../../6-homewrok/#3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/conf/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/migrations/0002_feedbackmodel_description_en_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/templatetags/my_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/feedbacks/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/frequently_questions/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/migrations/0002_teamusermodel_description_en_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/migrations/0003_teamsmodel_delete_teamusermodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/teams/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/migrations/0002_usermodel_full_name_en_usermodel_full_name_ru_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/users/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../month3/lesson10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../month3/lesson10.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2nFpHRPE5K1CYoJocyI9wsjMisl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="nt_feedback" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24302116-13d7-48d4-a88f-6944476616c2" name="Changes" comment="" />
+      <created>1728578589294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728578589294</updated>
+    </task>
+    <servers />
+  </component>
+</project>
