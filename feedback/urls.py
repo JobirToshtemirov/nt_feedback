@@ -1,12 +1,14 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
+from .views import offers, comments, problems, home
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('offers/', views.offers, name='offers'),
-    path('problems/', views.problems, name='problems'),
-    path('offers/<int:offer_id>/comments/', views.comments, name='comments'),
-    path('auth/', views.auth_view, name='auth'),
-    path('profile/', views.profile, name='profile'),
-    path('404/', views.page_not_found, name='404'),
+    path('/', home, name='home'),
+    path('offers/', offers, name='offers'),
+    path('problems/', problems, name='problems'),
+    path('comments/', comments, name='comments'),
+    path('feedback/', include('feedback')),
+    # path('auth/', include(auth_view), name='auth'),
+    # path('profile/', include(profile), name='profile'),
+    # path('404/', include(page_not_found), name='404'),
 ]
