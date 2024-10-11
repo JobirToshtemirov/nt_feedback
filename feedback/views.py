@@ -6,9 +6,9 @@ from .models import CommentModel, ProblemModel, OfferModel
 from .forms import CommentForm, ProblemForm, OfferForm
 
 
-# def home(request):
-#     return render(request, 'index.html')
-#
+def home(request):
+    return render(request, 'index.html')
+
 #
 # def offers(request):
 #     if request.method == 'POST':
@@ -54,36 +54,37 @@ from .forms import CommentForm, ProblemForm, OfferForm
 #
 #     comments_list = CommentModel.objects.filter(offer_id=offer_id)
 #     return render(request, 'comments.html', {'form': form, 'comments': comments_list})
-#
-#
-# def auth_view(request):
-#     if request.method == 'POST':
-#         form = UserCreationForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             username = form.cleaned_data.get('username')
-#             password = form.cleaned_data.get('password1')
-#             user = authenticate(username=username, password=password)
-#             if user is not None:
-#                 login(request, user)
-#                 return redirect('home')
-#     else:
-#         form = UserCreationForm()
-#
-#     return render(request, 'auth.html', {'form': form})
-#
-#
-# @login_required
-# def profile(request):
-#     return render(request, 'profile.html', {'user': request.user})
-#
-#
-# def page_not_found(request, ):
-#     return render(request, '404.html', status=404)
 
 
-def home(request):
-    return render(request, 'index.html')
+def auth_view(request):
+    if request.method == 'POST':
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('home')
+    else:
+        form = UserCreationForm()
+
+    return render(request, 'auth.html', {'form': form})
+
+
+@login_required
+def profile(request):
+    return render(request, 'profile.html', {'user': request.user})
+
+
+def page_not_found(request, ):
+    return render(request, '404.html', status=404)
+
+
+#
+# def home(request):
+#     return render(request, 'index.html')
 
 
 def offers(request):
@@ -98,6 +99,4 @@ def comments(request):
     return render(request, 'comment.html')
 
 def login(request):
-
     return render(request, 'login.html')
-

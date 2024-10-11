@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24302116-13d7-48d4-a88f-6944476616c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/feedback/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feedback/templatetags/my_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../6-homewrok/#3" beforeDir="false" afterPath="$PROJECT_DIR$/../../6-homewrok/#3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedback/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feedback/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feedback/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedback/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing_navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/admin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/apps.py" beforeDir="false" />
@@ -89,23 +84,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2nFpHRPE5K1CYoJocyI9wsjMisl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Jobir n/exam_month6/nt_feedback/feedback"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Jobir n/exam_month6/nt_feedback/feedback&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Jobir n\exam_month6\nt_feedback\feedback" />
