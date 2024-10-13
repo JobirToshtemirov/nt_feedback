@@ -6,6 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="24302116-13d7-48d4-a88f-6944476616c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../6-homewrok/#3" beforeDir="false" afterPath="$PROJECT_DIR$/../../6-homewrok/#3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nt_feedback.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nt_feedback.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/auth/register/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/auth/register/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/carusel/carusel.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/carusel/carusel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/all_offers/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/all_offers/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/auth/register/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/auth/register/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/carusel/carusel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/carusel/carusel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/all_offers/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/all_offers/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/admin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../feedback_najot_talim/comments/apps.py" beforeDir="false" />
@@ -72,7 +93,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
