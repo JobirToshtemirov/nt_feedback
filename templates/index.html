@@ -34,7 +34,7 @@
 
 <main>
     {#    NAVBAR #}
-    {% include 'layouts/landing_page_navbar/landing_navbar.html' %}
+    {% include 'landing_navbar.html' %}
     {#   END NAVBAR #}
 
     <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
@@ -46,10 +46,10 @@
 
                     <h1 class="text-white mb-4">{% trans 'Online platform for requests and offers' %}</h1>
 
-                    <a href="{% url 'create_feedback' %}"
+                    <a href="{% url 'problems' %}"
                        class="btn custom-btn smoothscroll me-3">{% trans 'Problems' %}</a>
 
-                    <a href="{% url 'create_feedback' %}"
+                    <a href="{% url 'offers' %}"
                        class="link link--kale smoothscroll">{% trans 'Make an offer' %}</a>
                 </div>
                 <div class="hero-image-wrap col-lg-6 col-12 mt-3 mt-lg-0">
@@ -642,7 +642,7 @@
     </section>
 
     <!--footer-->
-    {% include 'layouts/footer/footer.html' %}
+    {% include 'footer.html' %}
     <!--footer-->
 </main>
 

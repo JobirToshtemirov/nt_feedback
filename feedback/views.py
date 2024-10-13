@@ -10,6 +10,7 @@ def home(request):
     return render(request, 'index.html')
 
 
+
 def offers(request):
     if request.method == 'POST':
         form = OfferForm(request.POST)
@@ -22,7 +23,7 @@ def offers(request):
         form = OfferForm()
 
     offers_list = OfferModel.objects.all()
-    return render(request, 'offers.html', {'form': form, 'offers': offers_list})
+    return render(request, 'offer.html', {'form': form, 'offers': offers_list})
 
 
 def problems(request):
@@ -37,7 +38,7 @@ def problems(request):
         form = ProblemForm()
 
     problems_list = ProblemModel.objects.all()
-    return render(request, 'problems.html', {'form': form, 'problems': problems_list})
+    return render(request, 'offer_form.html', {'form': form, 'problems': problems_list})
 
 
 def comments(request, offer_id):
@@ -53,24 +54,7 @@ def comments(request, offer_id):
         form = CommentForm()
 
     comments_list = CommentModel.objects.filter(offer_id=offer_id)
-    return render(request, 'comments.html', {'form': form, 'comments': comments_list})
-
-
-def auth_view(request):
-    if request.method == 'POST':
-        form = UserCreationForm(request.POST)
-        if form.is_valid():
-            form.save()
-            username = form.cleaned_data.get('username')
-            password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=password)
-            if user is not None:
-                login(request, user)
-                return redirect('home')
-    else:
-        form = UserCreationForm()
-
-    return render(request, 'auth.html', {'form': form})
+    return render(request, 'comment.html', {'form': form, 'comments': comments_list})
 
 
 @login_required
@@ -80,3 +64,47 @@ def profile(request):
 
 def page_not_found(request, ):
     return render(request, '404.html', status=404)
+
+
+#
+# def home(request):
+#     return render(request, 'index.html')
+
+
+# def offers(request):
+#     return render(request, 'offer.html')
+
+
+# def problems(request):
+#     return render(request, 'offer_form.html')
+
+
+# def comments(request):
+#     return render(request, 'comment.html')
+
+
+def login(request):
+    return render(request, 'login.html')
+
+
+def submit_offer(request):
+    if request.method == 'POST':
+        form = OfferForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+    else:
+        form = OfferForm()
+    return render(request, 'offer_form.html', {'offer_form': form})
+
+
+def submit_problem(request):
+    if request.method == 'POST':
+        form = ProblemForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('home')
+    else:
+        form = ProblemForm()
+
+    return render(request, 'offer_form.html', {'offer_form': form})
