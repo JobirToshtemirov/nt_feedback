@@ -1,5 +1,4 @@
 asgiref==3.8.1
-<<<<<<< HEAD
 Django==5.1.1
 django-modeltranslation==0.19.9
 Pillow==10.4.0
@@ -7,7 +6,6 @@ python-gettext==5.0
 sqlparse==0.5.1
 tzdata==2024.2
 six~=1.16.0
-=======
 Django==5.1.2
 django-modeltranslation==0.19.9
 gunicorn==23.0.0
@@ -20,4 +18,3 @@ pillow==10.4.0
 sqlparse==0.5.1
 tzdata==2024.2
 
->>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
