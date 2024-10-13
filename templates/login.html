@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/auth/login/style.css' %}">
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<<<<<<< HEAD
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -20,10 +21,18 @@
 
     <link href="{% static 'css/bootstrap/templatemo-ebook-landing.css' %}" rel="stylesheet">
 
+=======
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="{% static 'css/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap/bootstrap-icons.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap/templatemo-ebook-landing.css' %}" rel="stylesheet">
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
     <link rel="icon" href="{% static 'files/images/favicon.ico' %}" type="image/x-icon">
 </head>
 
 <body>
+<<<<<<< HEAD
 {#modal#}
 {% if error != None or error != '' %}
     <div class="alert alert-danger" role="alert" style="font-size: 14px;">
@@ -32,6 +41,10 @@
 {% endif %}
 <!--  Body Wrapper -->
 
+=======
+
+<!-- Body Wrapper -->
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
 <div class="parent-div">
     <div class="main-div">
         <div class="main-logo">
@@ -48,20 +61,32 @@
             </div>
             <div class="login-form">
                 <div class="col-lg-12 col-12 mx-auto">
+<<<<<<< HEAD
                     <form class="custom-form" action="{% url 'login' %}" method="post">
                         {% csrf_token %}
+=======
+                    <form class="custom-form" action="#" method="post" role="form">
+                        {% csrf_token %}  <!-- Add CSRF token here -->
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
                         <div class="text-center mb-5">
                             <p class="mb-1" style="text-align: end">Welcome to <h6 style="text-align: end"><b>Najot
                             Ta'lim Feedback</b></h6></p>
                         </div>
                         <div>
                             <p style="text-align: start"><b>Login</b></p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
                             <div class="input-group mb-3">
                                 <input type="text" name="username" id="username"
                                        class="form-control login-form-input"
                                        aria-label="username" aria-describedby="basic-addon1"
+<<<<<<< HEAD
                                        placeholder="Username" required style="text-transform: lowercase">
+=======
+                                       placeholder="Username" required>
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
 
                                 <span class="input-group-text" id="basic-addon1">
                                             <i class="custom-form-icon bi-person"></i>
@@ -70,7 +95,11 @@
                             <div class="input-group mb-3">
                                 <input type="password" name="password" id="password"
                                        class="form-control login-form-input"
+<<<<<<< HEAD
                                        aria-label="password" aria-describedby="basic-addon1"
+=======
+                                       aria-label="user_password" aria-describedby="basic-addon1"
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
                                        placeholder="Password" required>
 
                                 <span class="input-group-text" id="basic-addon">
@@ -93,7 +122,11 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <!--  Body Wrapper -->
+=======
+<!-- Body Wrapper -->
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
 
 <!--SCRIPT-->
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
@@ -102,4 +135,8 @@
 <!--SCRIPT-->
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c

@@ -1,5 +1,9 @@
 .slider {
+<<<<<<< HEAD
     --totSlides: 2;
+=======
+    --totSlides: 4;
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
     --slideWidth: 800px;
     --slideHeight: 100%;
     --animationSpeed: calc(5s * var(--totSlides));
@@ -36,8 +40,11 @@
         transform: translateX(calc(var(--slideWidth) * var(--totSlides) * -1));
     }
 }
+<<<<<<< HEAD
 
 .comment-btn {
     background-color: #ffffff !important;
     border: none !important;
 }
+=======
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c

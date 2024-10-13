@@ -7,7 +7,11 @@
     position: absolute;
     top: 10%;
     right: 20%;
+<<<<<<< HEAD
     padding: 15px 30px;
+=======
+    padding: 25px 30px;
+>>>>>>> c9e2a5832b98c6665dc197ff4c6138bbda2cd80c
 }
 
 .main-logo {
